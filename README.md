@@ -9,7 +9,7 @@
 | Файл | Что внутри | Формат |
 |------|------------|--------|
 | `domains.json` | Доменные имена для блокировки на DNS-уровне | sing-box rule-set (JSON) |
-| `facetime-ip` | IP-адреса и подсети | plain text, по одному значению в строке |
+| `facetime-ip.json` | IP-адреса и подсети | plain text, по одному значению в строке |
 
 ## 🚀 Подключение к Podkop
 
@@ -35,14 +35,14 @@ https://raw.githubusercontent.com/future-username/future-soso-domains/main/domai
 **IP и подсети:**
 
 ```
-https://raw.githubusercontent.com/future-username/future-soso-domains/main/facetime-ip
+https://raw.githubusercontent.com/future-username/future-soso-domains/main/facetime-ip.json
 ```
 
 Альтернативный формат (через `refs/heads/`, иногда стабильнее с кешированием GitHub):
 
 ```
 https://raw.githubusercontent.com/future-username/future-soso-domains/refs/heads/main/domains.json
-https://raw.githubusercontent.com/future-username/future-soso-domains/refs/heads/main/facetime-ip
+https://raw.githubusercontent.com/future-username/future-soso-domains/refs/heads/main/facetime-ip.json
 ```
 
 ## 🔄 Обновление
