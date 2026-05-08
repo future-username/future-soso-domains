@@ -3,6 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
+        "gql.twitch.tv",
+        "usher.ttvnw.net",
+        "ads.twitch.tv",
+        "playlist.ttvnw.net",
+        "static-cdn.jtvnw.net",
         "atom.io",
         "dependabot.com",
         "gh.io",
