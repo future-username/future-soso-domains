@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
+        "encar.com",
         "atom.io",
         "dependabot.com",
         "gh.io",
