@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "remotedesktop.google.com",
+        "1abcdefg.team-ws.parsec.app",
+        "1jtxjeji6cgx7pvo0yg1xwvtwyj.team-ws.parsec.app",
+        "2ipb96cxazezg6fjtxyxewqqsli.team-ws.parsec.app",
+        "account.parsec.app",
+        "articles.parsec.app",
+        "blog.parsec.app",
+        "builds.parsec.app",
+        "careers.parsec.app",
+        "dash.parsec.app",
+        "email.parsec.app",
+        "go.parsec.app",
+        "images.parsec.app",
+        "kessel-api.parsec.app",
+        "kessel-ws.parsec.app",
+        "o2.ptr6740.parsec.app",
+        "o3.ptr7465.parsec.app",
+        "pages.parsec.app",
+        "parsec.app",
+        "public.parsec.app",
+        "status.parsec.app",
+        "stun.parsec.app",
+        "support.parsec.app",
+        "teams.parsec.app",
+        "web.parsec.app",
+        "www.parsec.app",
+        "yourteamid.team-ws.parsec.app"
+      ]
+    }
+  ]
+}
