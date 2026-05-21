@@ -4,6 +4,9 @@
     {
       "domain_suffix": [
         "remotedesktop.google.com",
+        "instantmessaging-pa.googleapis.com",
+        "remotedesktop-pa.googleapis.com",
+        "instantmessaging-pa.clients6.google.com",
         "1abcdefg.team-ws.parsec.app",
         "1jtxjeji6cgx7pvo0yg1xwvtwyj.team-ws.parsec.app",
         "2ipb96cxazezg6fjtxyxewqqsli.team-ws.parsec.app",
