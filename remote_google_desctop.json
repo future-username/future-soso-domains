@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "remotedesktop.google.com",
+        "instantmessaging-pa.googleapis.com",
+        "remotedesktop-pa.googleapis.com",
+        "instantmessaging-pa.clients6.google.com"
+      ]
+    }
+  ]
+}
