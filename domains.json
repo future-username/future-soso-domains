@@ -3,6 +3,8 @@
   "rules": [
     {
       "domain_suffix": [
+        "web-sandbox.oaiusercontent.com",
+        "staging-web-sandbox.oaiusercontent.com",
         "chatgpt-promptperfect-xyz.web-sandbox.oaiusercontent.com",
         "connector_openai_deep_research.web-sandbox.oaiusercontent.com",
         "connector_openai_shopping.web-sandbox.oaiusercontent.com",
