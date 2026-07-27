@@ -3,6 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
+        "rutracker.org",
+        "rutracker.net",
+        "static.rutracker.cc",
+        "rutrk.org",
+        "hdrezka.la",
         "web-sandbox.oaiusercontent.com",
         "staging-web-sandbox.oaiusercontent.com",
         "chatgpt-promptperfect-xyz.web-sandbox.oaiusercontent.com",
