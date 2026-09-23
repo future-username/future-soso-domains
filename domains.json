@@ -3,6 +3,19 @@
   "rules": [
     {
       "domain_suffix": [
+        "imo.im",
+        "www.imo.im",
+        "profile.imo.im",
+        "channel.imo.im",
+        "zone.imo.im",
+        "cdn.imo.im",
+        "sc.imo.im",
+        "sms.imo.im",
+        "web.imo.im",
+        "stream.imo.im",
+        "support.imo.im",
+        "games.imo.im",
+        "t.imo.im",
         "rutracker.org",
         "rutracker.net",
         "static.rutracker.cc",
