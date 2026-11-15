@@ -3,6 +3,14 @@
   "rules": [
     {
       "domain_suffix": [
+        "playstation.com",
+        "playstation.net",
+        "playstationnetwork.com",
+        "sonyentertainmentnetwork.com",
+        "ubi.com",
+        "ubisoft.com",
+        "ubisoft.org",
+        "ubisoftconnect.com",
         "imo.im",
         "www.imo.im",
         "profile.imo.im",
