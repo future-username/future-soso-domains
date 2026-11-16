@@ -1,0 +1,11 @@
+{
+  "domain_services": [
+    "github",
+    "jetbrains",
+    "notion",
+    "playstation",
+    "rutracker",
+    "ubisoft"
+  ],
+  "telegram_url": "https://core.telegram.org/resources/cidr.txt"
+}

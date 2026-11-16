@@ -1,0 +1,45 @@
+name: Update domains and IP ranges
+
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'sources/**'
+      - 'tests/**'
+      - '.github/workflows/update-lists.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-lists
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run updater tests
+        run: python -m unittest discover -s tests -v
+      - name: Refresh lists
+        run: python scripts/update_lists.py
+      - name: Commit changed lists
+        run: |
+          if git diff --quiet -- domains.json facetime-ip.json; then
+            echo 'Lists are unchanged'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add domains.json facetime-ip.json
+          git commit -m 'chore: refresh domains and IP ranges'
+          git push
